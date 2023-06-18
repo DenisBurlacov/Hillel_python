@@ -31,3 +31,39 @@ for i in list_transports:
 
 # 2.Створити клас Vehicle який має два методи desc() та wheels() котрі виводять в консоль певну інформацію.
 # Створити 2 дочірніх класи успадкованих від класу Vehicle та перевизначити зазначені 2 методи.
+class Vehicle():
+    def desc(self):
+        print("Some short information")
+
+    def wheels(self):
+        print('Numbers of wheels: ')
+
+
+class Car(Vehicle):
+    def desc(self):
+        print('this is a car')
+
+    def wheels(self):
+        print('4 wheels')
+
+
+class Bus(Vehicle):
+    def desc(self):
+        print('this is a bus')
+
+    def wheels(self):
+        print('8 wheels')
+
+
+vehicle = Vehicle()
+car = Car()
+bus = Bus()
+
+vehicle.desc()
+vehicle.wheels()
+
+car.desc()
+car.wheels()
+
+bus.desc()
+bus.wheels()
