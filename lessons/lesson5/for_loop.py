@@ -17,8 +17,6 @@ for key, name in enumerate(_list):
 print('index {}'.format(index))
 print(_list[index])
 
-
-
 for key, name in enumerate(_list):
     print(key, name)
 
