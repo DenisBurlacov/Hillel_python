@@ -6,6 +6,7 @@ def my_decorator(func):
         print('start of decorator')
         func()
         print('end of the decorator')
+
     return wrapper()
 
 
@@ -32,7 +33,10 @@ def do_twice(func):
     def wrapper():
         func()
         func()
+
     return wrapper
+
+
 @do_twice
 # @not_during_the_night
 def say_yuppi():
