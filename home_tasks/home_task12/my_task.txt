@@ -1,0 +1,2 @@
+Some text, for the file write
+Some additional row to the file
