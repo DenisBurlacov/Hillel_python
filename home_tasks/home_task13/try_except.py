@@ -2,7 +2,7 @@
 def exception_one():
     while True:
         description = input(
-            'The scrip divide firs number on the second, if you wont to continue enter Y, if no, enter N: ')
+            'The scrip divide first number on the second, if you wont to continue enter Y, if no, enter N: ')
         if description.lower() == 'n':
             print("Thanks bye!!!")
             break
