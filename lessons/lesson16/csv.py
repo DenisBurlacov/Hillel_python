@@ -13,6 +13,5 @@ data = [
     ['Bob', '43', 'Kyiv']
 ]
 
-with open('output.csv', 'w', newline='') as file:
-    csv_writer = csv.writer(file)
-    csv_writer
+with open('output.csv', 'r', newline='') as file:
+    csv_writer = csv.w
